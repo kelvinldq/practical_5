@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="my.marcusneo.practical_5.MainActivity">
+    <item
+        android:id="@+id/action_upload"
+        android:icon="@android:drawable/stat_sys_upload"
+        android:title="Upload"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_download"
+        android:icon="@android:drawable/stat_sys_download"
+        android:title="Download"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/profile"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/action_about"
+        android:title="About" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "155321842274",
+    "project_id": "practical-5-75149",
+    "storage_bucket": "practical-5-75149.appspot.com",
+    "firebase_url": "https://practical-5-75149-default-rtdb.asia-southeast1.firebasedatabase.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155321842274:android:440463a2a3ce1f53d46f3b",
+        "android_client_info": {
+          "package_name": "my.marcusneo.practical_5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155321842274-7dtr4n7n295764i4rrv11gha93sd2l09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH314iuqR0ERHdYRrzoGnU5MJuma497kE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155321842274-7dtr4n7n295764i4rrv11gha93sd2l09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

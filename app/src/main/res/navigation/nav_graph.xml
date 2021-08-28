@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="my.marcusneo.practical_5.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_ProfileFragment"
+            app:destination="@id/ProfileFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_secondActivity"
+            app:destination="@id/secondActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="my.marcusneo.practical_5.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="my.marcusneo.practical_5.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+    <activity
+        android:id="@+id/secondActivity"
+        android:name="my.marcusneo.practical_5.SecondActivity"
+        android:label="activity_second"
+        tools:layout="@layout/activity_second" />
+</navigation>
