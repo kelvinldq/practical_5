@@ -1,34 +1,35 @@
 {
   "project_info": {
-    "project_number": "155321842274",
-    "project_id": "practical-5-75149",
-    "storage_bucket": "practical-5-75149.appspot.com",
-    "firebase_url": "https://practical-5-75149-default-rtdb.asia-southeast1.firebasedatabase.app"
+    "project_number": "620634050062",
+    "project_id": "practical5-641b4",
+    "storage_bucket": "practical5-641b4.appspot.com",
+    "firebase_url": "https://practical5-641b4-default-rtdb.asia-southeast1.firebasedatabase.app"
   },
+
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:155321842274:android:440463a2a3ce1f53d46f3b",
+        "mobilesdk_app_id": "1:620634050062:android:28da97a9c189a6737bf65f",
         "android_client_info": {
           "package_name": "my.marcusneo.practical_5"
         }
       },
       "oauth_client": [
         {
-          "client_id": "155321842274-7dtr4n7n295764i4rrv11gha93sd2l09.apps.googleusercontent.com",
+          "client_id": "620634050062-66ptu3orga53pbtsvmreq9n6j4c698au.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDH314iuqR0ERHdYRrzoGnU5MJuma497kE"
+          "current_key": "AIzaSyAIeY2X50PpRI5-OfbJdm8AiJsPe3lZO3I"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "155321842274-7dtr4n7n295764i4rrv11gha93sd2l09.apps.googleusercontent.com",
+              "client_id": "620634050062-66ptu3orga53pbtsvmreq9n6j4c698au.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
